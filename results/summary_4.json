@@ -1,0 +1,86 @@
+[
+  {
+    "run": 1,
+    "model": "openai/gpt-5.2",
+    "temperature": 0.2,
+    "status": 200,
+    "latency_ms": 6050,
+    "json_valid": true,
+    "usage": {
+      "input_tokens": 178,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 202,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 380
+    },
+    "text": "{\n  \"insights\": [\n    \"Revenue grew 18% YoY driven by expansion into enterprise accounts, with enterprise ARPA improving via bundled contracts.\",\n    \"Churn rose from 3.1% to 4.0% after the pricing change, with mid-market and smaller customers showing higher downgrades/cancellations and slightly negative sentiment in mid-tier surveys.\",\n    \"Support tickets increased 25%, mostly tied to billing confusion and feature access restrictions, indicating pricing/packaging clarity issues; marketing spend also rose 15%.\"\n  ],\n  \"risk\": \"Pricing/packaging changes are eroding retention and satisfaction in mid-market/smaller segments, potentially offsetting enterprise-led growth and increasing support costs.\",\n  \"next_action\": \"Audit the pricing change impact by segment and address billing/feature-access confusion (clearer messaging, in-app entitlements, support macros), then test revised mid-market pricing/packaging to reduce churn and ticket volume.\"\n}",
+    "timestamp": 1771023780
+  },
+  {
+    "run": 2,
+    "model": "openai/gpt-5.2",
+    "temperature": 0.8,
+    "status": 200,
+    "latency_ms": 5731,
+    "json_valid": true,
+    "usage": {
+      "input_tokens": 178,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 230,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 408
+    },
+    "text": "{\n  \"insights\": [\n    \"Revenue grew 18% YoY driven primarily by expansion into enterprise accounts, with enterprise ARPA up significantly due to bundled contracts.\",\n    \"A pricing-tier simplification that raised mid-market costs coincided with churn rising from 3.1% to 4.0%, alongside higher downgrade/cancellation rates among smaller customers and slightly negative mid-tier sentiment.\",\n    \"Support tickets increased 25%, mostly tied to billing confusion and feature access restrictions, suggesting the pricing/packaging change created friction; marketing spend also rose 15% during the period.\"\n  ],\n  \"risk\": \"Mid-market and SMB retention risk is increasing due to pricing/packaging friction (billing confusion and perceived feature restrictions), potentially eroding growth gains from enterprise expansion and increasing support costs.\",\n  \"next_action\": \"Run an urgent pricing/packaging and billing-UX remediation: analyze churn/tickets by cohort and plan, clarify invoices and feature entitlements, introduce a mid-market-friendly option (grandfathering/credits or adjusted tier), and monitor churn, downgrade rate, and ticket volume weekly.\"\n}",
+    "timestamp": 1771023786
+  },
+  {
+    "run": 3,
+    "model": "anthropic/claude-opus-4-5",
+    "temperature": 0.2,
+    "status": 200,
+    "latency_ms": 4298,
+    "json_valid": true,
+    "usage": {
+      "input_tokens": 207,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 159,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 366
+    },
+    "text": "{\"insights\":[\"Revenue grew 18% YoY driven by enterprise account expansion and improved enterprise ARPA through bundled contracts\",\"Churn increased from 3.1% to 4.0% following pricing changes, with mid-market and smaller customers showing higher downgrade and cancellation rates\",\"Support tickets rose 25%, primarily due to billing confusion and feature access restrictions, correlating with negative sentiment shift in mid-tier accounts\"],\"risk\":\"Mid-market customer segment erosion due to pricing changes may offset enterprise gains if churn continues to accelerate and support burden increases operational costs\",\"next_action\":\"Conduct pricing sensitivity analysis for mid-market segment and develop targeted retention offers or tier adjustments to reduce churn while maintaining revenue growth\"}",
+    "timestamp": 1771023790
+  },
+  {
+    "run": 4,
+    "model": "anthropic/claude-opus-4-5",
+    "temperature": 0.8,
+    "status": 200,
+    "latency_ms": 4708,
+    "json_valid": true,
+    "usage": {
+      "input_tokens": 207,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 160,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 367
+    },
+    "text": "{\"insights\":[\"Revenue grew 18% YoY driven by enterprise account expansion and improved enterprise ARPA through bundled contracts\",\"Churn increased from 3.1% to 4.0% following pricing changes, with mid-market and smaller customers showing higher downgrade and cancellation rates\",\"Support tickets rose 25%, primarily due to billing confusion and feature access restrictions, correlating with negative sentiment shift in mid-tier accounts\"],\"risk\":\"Mid-market customer segment erosion due to pricing changes may offset enterprise gains if churn continues to accelerate and support issues remain unresolved\",\"next_action\":\"Conduct urgent review of mid-market pricing structure and implement targeted retention campaign with clearer billing communication to reduce churn and support burden\"}",
+    "timestamp": 1771023795
+  }
+]

@@ -1,0 +1,249 @@
+run 1 {
+    "run": 1,
+    "model": "openai/gpt-5.2",
+    "temperature": 0.2,
+    "status": 200,
+    "latency_ms": 3942,
+    "adherence": 100,
+    "text": "1) **3 key insights**\n- Revenue is strong (**+18% YoY**), indicating overall growth momentum.\n- **Churn worsened (3.1% \u2192 4.0%)**, which could erode net growth if it persists.\n- The **pricing change likely drove friction**: support tickets **+25%**, while **new enterprise deals lifted ARPA**, suggesting gains are concentrated in higher-value customers.\n\n2) **1 risk**\n- The pricing change may be increasing customer dissatisfaction, leading to **higher churn** and potentially offsetting revenue gains.\n\n3) **1 next action**\n- Run a **pricing-change impact review**: segment churn and ticket volume by cohort (pre/post change, plan, customer size), identify top ticket drivers, and implement targeted fixes (messaging, billing UX, plan adjustments) within the next cycle.",
+    "usage": {
+      "input_tokens": 81,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 178,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 259
+    },
+    "raw": {
+      "id": "bc4b12c4-6da7-41f1-94ba-2ea9dcd1f0e7",
+      "object": "response",
+      "created_at": 1771017167,
+      "status": "completed",
+      "error": null,
+      "incomplete_details": null,
+      "instructions": null,
+      "reasoning": {
+        "effort": null,
+        "summary": null
+      },
+      "temperature": 0.2,
+      "model": "openai/gpt-5.2",
+      "output": [
+        {
+          "type": "message",
+          "role": "assistant",
+          "id": "4faed761-d90b-4f7d-93bf-27e4eeb9917a",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "1) **3 key insights**\n- Revenue is strong (**+18% YoY**), indicating overall growth momentum.\n- **Churn worsened (3.1% \u2192 4.0%)**, which could erode net growth if it persists.\n- The **pricing change likely drove friction**: support tickets **+25%**, while **new enterprise deals lifted ARPA**, suggesting gains are concentrated in higher-value customers.\n\n2) **1 risk**\n- The pricing change may be increasing customer dissatisfaction, leading to **higher churn** and potentially offsetting revenue gains.\n\n3) **1 next action**\n- Run a **pricing-change impact review**: segment churn and ticket volume by cohort (pre/post change, plan, customer size), identify top ticket drivers, and implement targeted fixes (messaging, billing UX, plan adjustments) within the next cycle.",
+              "annotations": []
+            }
+          ]
+        }
+      ],
+      "tools": [],
+      "usage": {
+        "input_tokens": 81,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 178,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 259
+      }
+    },
+    "timestamp": 1771017171
+  } run 2 {
+    "run": 2,
+    "model": "openai/gpt-5.2",
+    "temperature": 0.8,
+    "status": 200,
+    "latency_ms": 5141,
+    "adherence": 100,
+    "text": "1) **3 key insights**\n- Revenue is strong (**+18% YoY**), indicating effective growth levers or demand.\n- **Churn worsened (3.1% \u2192 4.0%)**, which could erode net growth if it persists.\n- The **pricing change likely drove friction**: support tickets **+25%**, while **enterprise deals lifted ARPA**, suggesting mix shift toward higher-paying customers.\n\n2) **1 risk**\n- Continued churn increase\u2014potentially triggered by pricing confusion or dissatisfaction\u2014could offset revenue gains and increase support costs.\n\n3) **1 next action**\n- Run a rapid post\u2013pricing change review: segment churn and ticket drivers by cohort/plan, identify top complaint themes, and implement targeted fixes (messaging, billing UX, plan adjustments) within 2\u20134 weeks.",
+    "usage": {
+      "input_tokens": 81,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 174,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 255
+    },
+    "raw": {
+      "id": "5a8d3108-3e88-4881-a3ff-38367245e138",
+      "object": "response",
+      "created_at": 1771017172,
+      "status": "completed",
+      "error": null,
+      "incomplete_details": null,
+      "instructions": null,
+      "reasoning": {
+        "effort": null,
+        "summary": null
+      },
+      "temperature": 0.8,
+      "model": "openai/gpt-5.2",
+      "output": [
+        {
+          "type": "message",
+          "role": "assistant",
+          "id": "5a98cf5a-e8c1-419a-a934-94462f2913ce",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "1) **3 key insights**\n- Revenue is strong (**+18% YoY**), indicating effective growth levers or demand.\n- **Churn worsened (3.1% \u2192 4.0%)**, which could erode net growth if it persists.\n- The **pricing change likely drove friction**: support tickets **+25%**, while **enterprise deals lifted ARPA**, suggesting mix shift toward higher-paying customers.\n\n2) **1 risk**\n- Continued churn increase\u2014potentially triggered by pricing confusion or dissatisfaction\u2014could offset revenue gains and increase support costs.\n\n3) **1 next action**\n- Run a rapid post\u2013pricing change review: segment churn and ticket drivers by cohort/plan, identify top complaint themes, and implement targeted fixes (messaging, billing UX, plan adjustments) within 2\u20134 weeks.",
+              "annotations": []
+            }
+          ]
+        }
+      ],
+      "tools": [],
+      "usage": {
+        "input_tokens": 81,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 174,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 255
+      }
+    },
+    "timestamp": 1771017176
+  } run 3 {
+    "run": 3,
+    "model": "anthropic/claude-opus-4-5",
+    "temperature": 0.2,
+    "status": 200,
+    "latency_ms": 5539,
+    "adherence": 57,
+    "text": "## Analysis\n\n### 3 Key Insights\n1. **Strong top-line growth (18% YoY)** driven by successful enterprise segment expansion and higher ARPA\n2. **Pricing change triggered customer friction** \u2014 25% spike in support tickets signals dissatisfaction or confusion\n3. **Churn deterioration is significant** \u2014 29% relative increase (3.1% \u2192 4.0%) threatens long-term revenue sustainability\n\n### 1 Risk\n**Revenue growth may be masking a retention crisis** \u2014 if churn continues accelerating post-pricing change, customer lifetime value erodes and acquisition costs become harder to justify\n\n### 1 Next Action\n**Conduct urgent churn cohort analysis** \u2014 segment by pricing tier and tenure to identify which customers are leaving and whether the pricing change is the root cause, then develop targeted retention interventions",
+    "usage": {
+      "input_tokens": 91,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 190,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 281
+    },
+    "raw": {
+      "id": "38a8a5d7-e8eb-401f-aafa-1963babb1a35",
+      "object": "response",
+      "created_at": 1771017182,
+      "status": "completed",
+      "error": null,
+      "incomplete_details": null,
+      "instructions": null,
+      "reasoning": {
+        "effort": null,
+        "summary": null
+      },
+      "temperature": 0.2,
+      "model": "anthropic/claude-opus-4-5",
+      "output": [
+        {
+          "type": "message",
+          "role": "assistant",
+          "id": "d3058399-3c23-497f-8949-03f33fd80433",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "## Analysis\n\n### 3 Key Insights\n1. **Strong top-line growth (18% YoY)** driven by successful enterprise segment expansion and higher ARPA\n2. **Pricing change triggered customer friction** \u2014 25% spike in support tickets signals dissatisfaction or confusion\n3. **Churn deterioration is significant** \u2014 29% relative increase (3.1% \u2192 4.0%) threatens long-term revenue sustainability\n\n### 1 Risk\n**Revenue growth may be masking a retention crisis** \u2014 if churn continues accelerating post-pricing change, customer lifetime value erodes and acquisition costs become harder to justify\n\n### 1 Next Action\n**Conduct urgent churn cohort analysis** \u2014 segment by pricing tier and tenure to identify which customers are leaving and whether the pricing change is the root cause, then develop targeted retention interventions",
+              "annotations": []
+            }
+          ]
+        }
+      ],
+      "tools": [],
+      "usage": {
+        "input_tokens": 91,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 190,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 281
+      }
+    },
+    "timestamp": 1771017182
+  } run 4 {
+    "run": 4,
+    "model": "anthropic/claude-opus-4-5",
+    "temperature": 0.8,
+    "status": 200,
+    "latency_ms": 6757,
+    "adherence": 57,
+    "text": "## Analysis\n\n### 3 Key Insights\n1. **Strong top-line growth (18% YoY)** driven by successful enterprise segment expansion and higher ARPA\n2. **Pricing change triggered customer friction** \u2014 25% spike in support tickets signals dissatisfaction or confusion\n3. **Churn deterioration is significant** \u2014 29% relative increase (3.1% \u2192 4.0%) threatens long-term revenue sustainability\n\n### 1 Risk\n**Growth may be masking retention problems** \u2014 the pricing change appears to be accelerating customer losses; if churn continues rising, it will eventually outpace new revenue gains\n\n### 1 Next Action\n**Conduct urgent churn analysis** \u2014 segment churned customers by pricing tier and tenure to determine if the pricing change is the root cause, then decide whether to adjust pricing, grandfather existing customers, or improve change communication",
+    "usage": {
+      "input_tokens": 91,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 196,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 287
+    },
+    "raw": {
+      "id": "bfc1f679-03c1-4095-82ae-9d51ec45757b",
+      "object": "response",
+      "created_at": 1771017188,
+      "status": "completed",
+      "error": null,
+      "incomplete_details": null,
+      "instructions": null,
+      "reasoning": {
+        "effort": null,
+        "summary": null
+      },
+      "temperature": 0.8,
+      "model": "anthropic/claude-opus-4-5",
+      "output": [
+        {
+          "type": "message",
+          "role": "assistant",
+          "id": "51b370c9-a663-49d6-9b4f-bbda874c0210",
+          "status": "completed",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "## Analysis\n\n### 3 Key Insights\n1. **Strong top-line growth (18% YoY)** driven by successful enterprise segment expansion and higher ARPA\n2. **Pricing change triggered customer friction** \u2014 25% spike in support tickets signals dissatisfaction or confusion\n3. **Churn deterioration is significant** \u2014 29% relative increase (3.1% \u2192 4.0%) threatens long-term revenue sustainability\n\n### 1 Risk\n**Growth may be masking retention problems** \u2014 the pricing change appears to be accelerating customer losses; if churn continues rising, it will eventually outpace new revenue gains\n\n### 1 Next Action\n**Conduct urgent churn analysis** \u2014 segment churned customers by pricing tier and tenure to determine if the pricing change is the root cause, then decide whether to adjust pricing, grandfather existing customers, or improve change communication",
+              "annotations": []
+            }
+          ]
+        }
+      ],
+      "tools": [],
+      "usage": {
+        "input_tokens": 91,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 196,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 287
+      }
+    },
+    "timestamp": 1771017188
+  }

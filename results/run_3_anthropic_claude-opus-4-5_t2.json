@@ -1,0 +1,21 @@
+{
+  "run": 3,
+  "model": "anthropic/claude-opus-4-5",
+  "temperature": 0.2,
+  "status": 200,
+  "latency_ms": 4298,
+  "json_valid": true,
+  "usage": {
+    "input_tokens": 207,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 366
+  },
+  "text": "{\"insights\":[\"Revenue grew 18% YoY driven by enterprise account expansion and improved enterprise ARPA through bundled contracts\",\"Churn increased from 3.1% to 4.0% following pricing changes, with mid-market and smaller customers showing higher downgrade and cancellation rates\",\"Support tickets rose 25%, primarily due to billing confusion and feature access restrictions, correlating with negative sentiment shift in mid-tier accounts\"],\"risk\":\"Mid-market customer segment erosion due to pricing changes may offset enterprise gains if churn continues to accelerate and support burden increases operational costs\",\"next_action\":\"Conduct pricing sensitivity analysis for mid-market segment and develop targeted retention offers or tier adjustments to reduce churn while maintaining revenue growth\"}",
+  "timestamp": 1771023790
+}

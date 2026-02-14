@@ -1,0 +1,21 @@
+{
+  "run": 2,
+  "model": "openai/gpt-5.2",
+  "temperature": 0.2,
+  "status": 200,
+  "latency_ms": 4125,
+  "json_valid": true,
+  "usage": {
+    "input_tokens": 93,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 250
+  },
+  "text": "{\n  \"insights\": [\n    \"Revenue increased 18% year-over-year, indicating strong top-line growth.\",\n    \"Churn rose from 3.1% to 4.0%, signaling worsening retention that could erode future revenue.\",\n    \"A pricing change coincided with a 25% increase in support tickets, while new enterprise deals lifted ARPA.\"\n  ],\n  \"risk\": \"Higher churn and increased support burden following the pricing change may offset revenue gains and indicate customer dissatisfaction.\",\n  \"next_action\": \"Analyze churn and ticket drivers by cohort/plan around the pricing change, identify top issues, and implement targeted fixes (pricing/packaging adjustments, comms, and support/process improvements) while monitoring ARPA and retention.\"\n}",
+  "timestamp": 1771022525
+}

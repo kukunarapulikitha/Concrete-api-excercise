@@ -1,0 +1,86 @@
+[
+  {
+    "run": 1,
+    "model": "openai/gpt-5.2",
+    "temperature": 0.2,
+    "status": 200,
+    "latency_ms": 4397,
+    "json_valid": true,
+    "usage": {
+      "input_tokens": 93,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 148,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 241
+    },
+    "text": "{\n  \"insights\": [\n    \"Revenue increased 18% year-over-year, indicating strong top-line growth.\",\n    \"Churn rose from 3.1% to 4.0%, signaling worsening retention that could erode future revenue.\",\n    \"A pricing change coincided with a 25% increase in support tickets, while new enterprise deals lifted ARPA.\"\n  ],\n  \"risk\": \"Higher churn and increased support burden after the pricing change may offset revenue gains and indicate customer dissatisfaction.\",\n  \"next_action\": \"Analyze churn and ticket drivers by cohort/plan around the pricing change, then adjust pricing/packaging and customer support or onboarding to reduce churn while preserving enterprise ARPA gains.\"\n}",
+    "timestamp": 1771020430
+  },
+  {
+    "run": 2,
+    "model": "openai/gpt-5.2",
+    "temperature": 0.8,
+    "status": 200,
+    "latency_ms": 3370,
+    "json_valid": true,
+    "usage": {
+      "input_tokens": 93,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 146,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 239
+    },
+    "text": "{\n  \"insights\": [\n    \"Revenue increased 18% year over year, indicating strong top-line growth.\",\n    \"Churn rose from 3.1% to 4.0%, signaling worsening retention that could offset growth.\",\n    \"Support tickets increased 25% following a pricing change, while new enterprise deals lifted ARPA.\"\n  ],\n  \"risk\": \"The pricing change may be driving customer dissatisfaction, leading to higher support volume and increased churn, which could undermine future revenue growth.\",\n  \"next_action\": \"Analyze churn and support ticket drivers by cohort/plan around the pricing change, then adjust pricing/packaging or customer communication and implement targeted retention outreach to affected segments.\"\n}",
+    "timestamp": 1771020433
+  },
+  {
+    "run": 3,
+    "model": "anthropic/claude-opus-4-5",
+    "temperature": 0.2,
+    "status": 200,
+    "latency_ms": 4491,
+    "json_valid": true,
+    "usage": {
+      "input_tokens": 107,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 156,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 263
+    },
+    "text": "{\"insights\":[\"Revenue grew 18% YoY indicating strong top-line growth driven partly by new enterprise deals improving ARPA\",\"Customer churn increased significantly from 3.1% to 4.0%, representing a 29% relative increase in churn rate\",\"Support tickets rose 25% following a pricing change, suggesting customer dissatisfaction or confusion with new pricing structure\"],\"risk\":\"The pricing change appears to be causing customer friction, evidenced by both increased support tickets and higher churn, which could offset revenue gains if not addressed\",\"next_action\":\"Investigate the correlation between the pricing change and churn increase by analyzing churned customer segments and support ticket themes to determine if pricing adjustments or improved communication are needed\"}",
+    "timestamp": 1771020438
+  },
+  {
+    "run": 4,
+    "model": "anthropic/claude-opus-4-5",
+    "temperature": 0.8,
+    "status": 200,
+    "latency_ms": 4755,
+    "json_valid": true,
+    "usage": {
+      "input_tokens": 107,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 152,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 259
+    },
+    "text": "{\"insights\":[\"Revenue grew 18% YoY indicating strong top-line growth driven partly by new enterprise deals improving ARPA\",\"Customer churn increased significantly from 3.1% to 4.0%, representing a 29% relative increase in churn rate\",\"Support tickets rose 25% following a pricing change, suggesting customer dissatisfaction or confusion with new pricing structure\"],\"risk\":\"The pricing change appears to be negatively impacting customer retention and satisfaction, with rising churn and support volume potentially offsetting revenue gains if not addressed\",\"next_action\":\"Conduct customer feedback analysis on support tickets related to pricing change and develop a retention strategy targeting at-risk customers before churn erodes revenue growth\"}",
+    "timestamp": 1771020442
+  }
+]

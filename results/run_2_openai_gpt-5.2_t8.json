@@ -1,0 +1,21 @@
+{
+  "run": 2,
+  "model": "openai/gpt-5.2",
+  "temperature": 0.8,
+  "status": 200,
+  "latency_ms": 5731,
+  "json_valid": true,
+  "usage": {
+    "input_tokens": 178,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 230,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 408
+  },
+  "text": "{\n  \"insights\": [\n    \"Revenue grew 18% YoY driven primarily by expansion into enterprise accounts, with enterprise ARPA up significantly due to bundled contracts.\",\n    \"A pricing-tier simplification that raised mid-market costs coincided with churn rising from 3.1% to 4.0%, alongside higher downgrade/cancellation rates among smaller customers and slightly negative mid-tier sentiment.\",\n    \"Support tickets increased 25%, mostly tied to billing confusion and feature access restrictions, suggesting the pricing/packaging change created friction; marketing spend also rose 15% during the period.\"\n  ],\n  \"risk\": \"Mid-market and SMB retention risk is increasing due to pricing/packaging friction (billing confusion and perceived feature restrictions), potentially eroding growth gains from enterprise expansion and increasing support costs.\",\n  \"next_action\": \"Run an urgent pricing/packaging and billing-UX remediation: analyze churn/tickets by cohort and plan, clarify invoices and feature entitlements, introduce a mid-market-friendly option (grandfathering/credits or adjusted tier), and monitor churn, downgrade rate, and ticket volume weekly.\"\n}",
+  "timestamp": 1771023786
+}

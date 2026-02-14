@@ -1,0 +1,22 @@
+{
+  "run": 3,
+  "model": "anthropic/claude-opus-4-5",
+  "temperature": 0.2,
+  "max_output_tokens": 120,
+  "status": 200,
+  "latency_ms": 3477,
+  "json_valid": false,
+  "usage": {
+    "input_tokens": 107,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 120,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 227
+  },
+  "text": "{\"insights\":[\"Revenue grew 18% YoY indicating strong top-line growth driven partly by new enterprise deals improving ARPA\",\"Customer churn increased significantly from 3.1% to 4.0%, representing a 29% relative increase in churn rate\",\"Support tickets rose 25% following a pricing change, suggesting customer dissatisfaction with new pricing structure\"],\"risk\":\"The pricing change appears to be causing customer friction, evidenced by both increased support tickets and higher churn, which could offset revenue gains if not addressed\",\"next_action\":\"Analyze support",
+  "timestamp": 1771022902
+}
