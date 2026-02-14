@@ -79,7 +79,7 @@ Increasing temperature slightly increased verbosity.
 Structural adherence remained stable across temperatures for both models.
 
 
-Experiment 2: Strict JSON Schema Enforcement
+## Experiment 2: Strict JSON Schema Enforcement
 
 I compared OpenAI GPT-5.2 and Anthropic Claude Opus 4.5 across temperature 0.2 and 0.8 using a strict JSON-only response constraint.
 
@@ -115,7 +115,7 @@ Output wording varied slightly at higher temperature, but schema compliance rema
 
 Strict JSON enforcement reduced formatting variability across providers.
 
-Experiment 3: max_output_tokens Scaling & Truncation Test
+## Experiment 3: max_output_tokens Scaling & Truncation Test
 
 I compared OpenAI GPT-5.2 and Anthropic Claude Opus 4.5 using strict JSON schema enforcement under two output ceilings: max_output_tokens = 120 and max_output_tokens = 800.
 
